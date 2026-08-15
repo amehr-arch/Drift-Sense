@@ -1,0 +1,7 @@
+# Runtime dependencies. Deliberately minimal: both ship as universally available
+# wheels, so a reviewer can install and run without compilers, CUDA, or
+# platform-specific variants. Area-average reduction and bilinear sampling are
+# implemented in NumPy (see driftsense/resample.py) rather than pulled in from
+# SciPy, which removes the only other dependency that would have been needed.
+numpy>=1.22
+Pillow>=9.0

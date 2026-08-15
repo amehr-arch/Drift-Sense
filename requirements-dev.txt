@@ -1,0 +1,4 @@
+-r requirements.txt
+# The test suite uses only the standard library's unittest, so nothing extra is
+# strictly required. pytest is optional and will collect the same tests.
+pytest>=7.0
